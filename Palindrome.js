@@ -1,9 +1,13 @@
-let str = "madam"
-
-for(let i=0; i>str.length; i++){
-
-bag+= str[i]
-
+let str = "madam";
+let bag="";
+for(let i=str.length-1; i>=0; i--){
+     bag+= str[i];
 }
 
-console.log(bag)
+if(bag == str){
+ console.log("yes it is palindrome")
+}
+
+else{
+console.log("Not a palindrome")
+}
